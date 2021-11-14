@@ -1,0 +1,65 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.litop{
+    list-style-type: none;
+    display: inline;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.ultop{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.litop:nth-child(1){
+    text-decoration: underline;
+    color: blue;
+}
+
+.litop:nth-child(2){
+    text-decoration: line-through;
+    color: black;
+}
+
+.litop:nth-child(3){
+    text-decoration: underline;
+    color: blue;
+}
+
+.licontent {
+    text-decoration: line-through;
+}
+
+.ulcontent {
+    list-style-type: none;
+}
+
+.ulcontent li::before{
+    content: '😞';
+}
+
+p::first-letter{
+    color:red;
+}
+
+p::first-line {
+    font-size: 150%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+.right{
+    float: right;
+}
+
+p {
+    text-align-last: center;
+}
